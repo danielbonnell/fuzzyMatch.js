@@ -1,5 +1,5 @@
 /*
- * fuzzyMatch.js v1.0.0
+ * fuzzyMatch.js v1.0.1
  * https://github.com/danielbonnell/fuzzyMatch
  * Copyright 2018 Daniel Bonnell
  *
