@@ -8,6 +8,8 @@ A tiny JS library (1.39 KB minified) that compares two strings and returns a num
 4. Finally the algorith returns the highest of the aforementioned scores.
 
 # Example
+Demo: [jsFiddle](https://jsfiddle.net/dq1x7c3u/15/)
+
     var a = "Who rocks?🤗YOU do. We couldn't possibly be named Property Manager of the Year by #kewlstuff without our residents, employees and partners.",
         b = "Who rocks!? You do, we do, random stuff here. We couldn't possibly be named Property Manager of the Year by the #kewlstuff with out our residents, employees, and partners. This is awesome!";
 
