@@ -13,6 +13,9 @@ function fuzzyMatch(input, source, prevScore) {
         inputWords = input.split(/\W/).filter(function(word) { return validWord(word) }).map(function(word) { return word.toLowerCase() }),
         sourceWords = source.split(/\W/).filter(function(word) { return validWord(word) }).map(function(word) { return word.toLowerCase() });
 
+    // Break out if there are no words to compare
+    if(inputWords.length === 0 || sourceWords.length === 0) return 0;
+
     // Iterate through the input words and find how many times each word appears in the same
     // (or adjacent) position within the source array
     inputWords.forEach(function(word, index) {
